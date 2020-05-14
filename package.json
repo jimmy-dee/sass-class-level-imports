@@ -4,7 +4,7 @@
   "description": "exploring a method of importing and exporting using mixins in sass",
   "main": "index.js",
   "repository": "https://github.com/jimmy-dee/sass-class-level-imports.git",
-  "author": "James Davies <jdavies@nrl.com.au>",
+  "author": "James Davies",
   "license": "MIT",
   "dependencies": {
     "webpack": "^4.43.0",
