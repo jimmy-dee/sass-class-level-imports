@@ -1,0 +1,26 @@
+@mixin section {
+  .section {
+    margin: 1rem 0;
+  }
+}
+
+@mixin section-title {
+  .section-title {
+    color: #444;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@mixin section-text {
+  .section-text {
+    color: #666;
+    font-size: 1rem;
+  }
+}
+
+@mixin section-all {
+  @include section;
+  @include section-title;
+  @include section-text;
+}

@@ -1,0 +1,26 @@
+@mixin card {
+  .card {
+    background: white;
+    padding: 0.5rem;
+  }
+}
+
+@mixin card-title {
+  .card-title {
+    color: blue;
+    font-size: 1.1rem;
+  }
+}
+
+@mixin card-text {
+  .card-text {
+    color: gray;
+    font-size: 0.8rem;
+  }
+}
+
+@mixin card-all {
+  @include card;
+  @include card-title;
+  @include card-text;
+}

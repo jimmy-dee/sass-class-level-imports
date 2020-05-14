@@ -1,3 +1,19 @@
-.project-a {
-  color: blue; }
+.card {
+  background: white;
+  padding: 0.5rem; }
+
+.card-title {
+  color: blue;
+  font-size: 1.1rem; }
+
+.card-text {
+  color: gray;
+  font-size: 0.8rem; }
+
+.section {
+  margin: 1rem 0; }
+
+.section-text {
+  color: #666;
+  font-size: 1rem; }
 
