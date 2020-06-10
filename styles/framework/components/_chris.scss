@@ -1,0 +1,31 @@
+@mixin chris {
+  .chris {
+    color: blue;
+    font-size: 1.1rem;
+  }
+}
+
+@mixin chris-shirt {
+  .chris__shirt {
+    color: black;
+  }
+}
+
+@mixin chris-pants {
+  .chris__pants {
+    color: red;
+  }
+}
+
+@mixin chris-shoes {
+  .chris__shoes {
+    color: green;
+  }
+}
+
+@mixin chris-all {
+  @include chris;
+  @include chris-shirt;
+  @include chris-pants;
+  @include chris-shoes;
+}
